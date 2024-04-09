@@ -20,7 +20,6 @@ import com.formation.service.UserService;
 @RestController
 @RequestMapping("api/users")
 public class UserController {
-	@Autowired 
 	private UserService userService;
 
 	// build create User REST API
