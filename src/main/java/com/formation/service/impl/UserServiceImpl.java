@@ -1,6 +1,5 @@
 package com.formation.service.impl;
 
-import lombok.AllArgsConstructor;
 import com.formation.entity.User;
 import com.formation.repository.UserRepository;
 import com.formation.service.UserService;
@@ -9,7 +8,6 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-@AllArgsConstructor
 public class UserServiceImpl implements UserService {
 	private UserRepository userRepository;
 

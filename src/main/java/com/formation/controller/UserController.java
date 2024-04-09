@@ -16,10 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.formation.entity.User;
 import com.formation.service.UserService;
 
-import lombok.AllArgsConstructor;
 
 @RestController
-@AllArgsConstructor
 @RequestMapping("api/users")
 public class UserController {
 	private UserService userService;
